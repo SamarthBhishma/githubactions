@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: echo a string 
-        run: "Hello World"
+        run: echo "Hello World"
       - name: multiline script
         run: |
           node -v
